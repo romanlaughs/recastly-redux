@@ -9,6 +9,6 @@ var mapDispatchToProps = (dispatch) => {
   };
 };
 
-var VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(Search);
+var VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
 
 export default VideoPlayerContainer;
