@@ -6,6 +6,7 @@ import Search from './Search.js';
 import SearchContainer from '../containers/SearchContainer.js';
 import VideoListContainer from '../containers/VideoListContainer.js';
 import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import store from '../store/store.js';
 
 class App extends React.Component {
   constructor(props) {
