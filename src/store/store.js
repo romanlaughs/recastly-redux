@@ -11,6 +11,6 @@ import exampleVideoData from '../data/exampleVideoData.js';
 
 var callThunk = applyMiddleware(thunk);
 const store = createStore(rootReducer, { currentVideo: exampleVideoData[0], videoList: exampleVideoData }, callThunk);
-console.log(store.getState());
+
 
 export default store;
